@@ -3,7 +3,7 @@ setup:
 	pip install -r requirements-test.txt
 
 test:
-	py.test --flake8 --cov=resttest
+	PYTHONPATH=. py.test --flake8 --cov=resttest
 
 run:
 	PYTHONPATH=. python app.py
