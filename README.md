@@ -1,6 +1,6 @@
 # resttest
 
-[![Build Status](https://travis-ci.org/philwhln/resttest.svg?branch=master)](https://travis-ci.org/philwhln/resttest)
+[![Build Status](https://travis-ci.org/philwhln/resttest.svg?branch=master)](https://travis-ci.org/philwhln/resttest) [![Docker Hub](https://img.shields.io/badge/docker-ready-blue.svg)](https://hub.docker.com/r/philwhln/resttest/)
 
 ## Run application
 
