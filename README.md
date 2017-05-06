@@ -81,3 +81,15 @@ Test the application with `make docker-test`
 
 This builds a 2nd docker container that builds on the application container, 
 adding the unit tests and testing dependencies.
+
+### Run pre-built from Docker Hub
+
+https://hub.docker.com/r/philwhln/resttest/
+
+```
+docker run --rm -ti philwhln/resttest
+```
+
+### CI uses Travis-CI
+
+https://travis-ci.org/philwhln/resttest
