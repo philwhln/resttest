@@ -79,4 +79,4 @@ Run the application with `make docker-run`
 Test the application with `make docker-test`
 
 This builds a 2nd docker container that builds on the application container, 
-adding the unit tests.
+adding the unit tests and testing dependencies.
