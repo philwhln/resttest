@@ -1,5 +1,6 @@
 # resttest
 
+[![Build Status](https://travis-ci.org/philwhln/resttest.svg?branch=master)](https://travis-ci.org/philwhln/resttest)
 
 ## Run application
 
