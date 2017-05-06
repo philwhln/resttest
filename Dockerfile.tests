@@ -1,0 +1,7 @@
+FROM resttest
+ADD requirements-test.txt .
+RUN pip install -r requirements-test.txt
+RUN mkdir -p tests/fixtures/transactions
+ADD tests/*.py tests/
+ADD tests/fixtures/transactions/*.json tests/fixtures/transactions/
+CMD PYTHONPATH=. py.test --flake8 --cov=resttest

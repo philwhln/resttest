@@ -62,4 +62,21 @@ TOTAL                         54     12    78%
 
 ## Improvements
 
-- Add pageSize to http://resttest.bench.co/transactions/*.json
+- Add pageSize to `http://resttest.bench.co/transactions/*.json`
+
+## Docker usage
+
+### Build
+
+Build the application with `make docker-build`.
+
+### Run
+
+Run the application with `make docker-run`
+
+### Test
+
+Test the application with `make docker-test`
+
+This builds a 2nd docker container that builds on the application container, 
+adding the unit tests.
