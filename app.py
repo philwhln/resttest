@@ -1,0 +1,3 @@
+import resttest
+
+resttest.run()
